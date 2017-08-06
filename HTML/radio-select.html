@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form using Radio and Select inputs</title>
+</head>
+<body>
+	<h1>Form using Radio and Select Inputs</h1>
+	<form action="http://www.wikipedia.org">
+		<label for="dogs">Dogs:</label>
+		<input id="dogs" type="radio" name="PetChoice" value="Dogs">
+
+		<label for="cats">Cats:</label>
+		<input type="radio" name="PetChoice" id="cats" value="Cats">
+
+		<p>How is your current mood? Please select below.</p>
+		<select name="mood">
+			<option value="Happy">:-)</option>
+			<option value="Neutral">:-|</option>
+			<option value="Sad">:-(</option>
+		</select>
+		<input type="text" name="text" value="text">
+		<textarea rows="5" cols="10"></textarea>
+		<button>Click Me To Submit</button>
+	</form>
+</body>
+</html>
